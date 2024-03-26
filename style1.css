@@ -1,0 +1,93 @@
+{
+    margin: 0;
+    font-family: Arial;
+    border:border-box;
+    
+}
+
+.nav{
+    height: 70px;
+    background-color: orange;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 200px`;
+    width:80px;
+}
+
+.logo{
+    background-image: url("logo1.png");
+    background-size: cover;
+    height: 70px;
+    width: 150%;
+}
+.border{
+    border:2px solid transparent;
+
+}
+.border:hover{
+    border:1.5px solid black; 
+}
+
+
+.nav-contact i {
+   font-size: 20px;
+   
+}
+
+
+.nav-contact{
+    font-size: 0.85rem;
+    font-weight: 700;
+    background-color:white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.nav-User{
+    font-size: 0.85rem;
+    font-weight: 700;
+    background-color:white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.nav-Login{
+    font-size: 0.85rem;
+    font-weight: 700;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.about{
+    font-size: 0.85rem;
+    font-weight: 700;
+    background-color:white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.main{
+    background-image: url("hero_image.jpg");
+    height: 600px;
+    
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.main-message{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 25px;
+    font-size: 0.9rem;
+    width: 80%;
+    margin-bottom: 25px;
+
+}
+
